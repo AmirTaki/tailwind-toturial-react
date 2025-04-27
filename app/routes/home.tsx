@@ -9,5 +9,11 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <h1 className="text-3xl font-bold underline ">
+    Hello world!
+  </h1>
+
+  );
+  
 }
