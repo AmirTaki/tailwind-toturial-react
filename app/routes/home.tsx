@@ -11,11 +11,28 @@
 export default function Home() {
   return (
     <>
-      <h1 className="text-center  text-xl font-medium text-orange-500 bg-amber-950">
+
+    <div 
+      className="container">
+    <h1 
+      className="
+      rounded-3xl
+      h-30
+      w-full
+      my-13
+      py-12
+      text-center 
+      text-xl 
+      font-medium
+      text-red-500
+      bg-slate-300
+      shadow-blue-500">
         Hello world!
       </h1>
+    </div>
     
-      <h2 className="text-center font-bold text-5xl">product</h2>
+    
+      
    
    
     </>
